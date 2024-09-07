@@ -1,16 +1,12 @@
-/* .input-box {
-	position: relative;
-} */
-
 #buttonContainer {
 	position: relative;
 	width: 100%;
-	display: flex; /* Use Flexbox layout */
-	flex-wrap: wrap; /* Allow wrapping */
+	display: flex;
+	flex-wrap: wrap;
 	align-items: flex-start;
 	gap: 10px;
 }
 
 button {
-	flex: 0 0 auto; /* Prevent buttons from growing or shrinking */
+	flex: 0 0 auto;
 }
